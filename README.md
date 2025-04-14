@@ -1,5 +1,5 @@
 # Global_apprent_density_inversion
-the code for the "A Novel Algorithm for Global Apparent Density Mapping in the Spherical Harmonic Domain" ，A detailed description is provided below:
+the code for the "A Novel Algorithm and Software for Global Apparent Density Mapping using Spherical Harmonic Analysis and Synthesis" ，A detailed description is provided below:
 
 Operating System: Windows 10/11, MATLAB
 
