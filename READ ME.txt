@@ -1,9 +1,0 @@
-the code for the "A Novel Algorithm for Global Apparent Density Mapping in the Spherical Harmonic Domain" ，A detailed description is provided below:
-
-Operating System: Windows 10/11, MATLAB
-
-File Format Requirements: A total of three input files are required: two boundary data files and one gravity data file.
-In the boundary data files, the first and second columns represent longitude and latitude, respectively, and the third column is the elevation value in kilometers.In the gravity data file, the first and second columns are longitude and latitude, respectively, and the third column can be either gravity anomaly or gradient data.
-
-Code Description:  "Global_Apparent_Density_Mapping" is the main program. Simply run this file to start. The interface includes parameter settings and visualization of observation data.This software has a GUI with two main parts. (1)The first part is “Data Input and Parameter Settings.” Here, you can select gravity calculation parameters, load the upper and lower boundary data, and import the gravity data. You also need to set the calculation range (longitude from -179.5 to 179.5, latitude from -89.5 to 89.5). In this section, you will also enter values such as the calculation height, maximum number of iterations, iteration tolerance, maximum degree of spherical harmonics, and the alpha damping factor.
- (2) The second part is the result output section, which runs automatically after the calculation is completed. It includes the inverted density data and its statistical values, the RMS curve of gravity anomalies during the Global_apparent_density_inversion, and the density images obtained from the inversion process.
